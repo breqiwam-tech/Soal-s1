@@ -1,7 +1,7 @@
 services:
   web:
     image: nginx:alpine
-    container_name: adesetiawan_web_dev
+    container_name: tunjang_web_dev
     user: "0:0" # karena host nya idnsolo bukan idnsolo_remote, maka user nya harus root (0:0)
     ports:
       - "18090:80"
